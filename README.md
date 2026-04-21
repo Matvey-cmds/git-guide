@@ -34,8 +34,10 @@
 10. `git checkout -b new-branch` - создать и переключится на ветку, пример:<img width="462" height="131" alt="9" src="https://github.com/user-attachments/assets/4daf894c-6964-4700-91a7-22a458c8e0a0" />
 11. `git checkout имя-ветки` - переключится на ветку, пример:<img width="446" height="71" alt="10" src="https://github.com/user-attachments/assets/6229da87-a203-497d-811f-c68c0aad32b5" />
 12.  `git merge имя-ветки` - Слить ветку в текущую, пример:<img width="459" height="124" alt="12" src="https://github.com/user-attachments/assets/fc0dc481-1885-4329-84bf-71a2034aeeb3" />
-13. `git branch -d имя-ветки`-безопасное удаление (только если ветка слита)
-14. `git branch -D имя-ветки` - принудительное удаление
+13. `git branch -d имя-ветки`-безопасное удаление (только если ветка слита) <img width="452" height="64" alt="20" src="https://github.com/user-attachments/assets/641f39e9-2330-4786-b6de-35d5416d2cae" />
+
+14. `git branch -D имя-ветки` - принудительное удаление<img width="458" height="65" alt="21" src="https://github.com/user-attachments/assets/b7d2f4d0-a784-4e2b-bd5a-e31696f9ddd9" />
+
 ### 4. Работа с удалённым Git и форками
 #### Основные команды для работы с удалённым репозиторием 
 1. `git remote add origin <url>` - подключить удалённый репозиторий, пример:<img width="604" height="42" alt="13" src="https://github.com/user-attachments/assets/6a7af874-088a-4067-9af7-9a243b3cd3ea" />
