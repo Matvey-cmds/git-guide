@@ -21,8 +21,8 @@
 #### Первоначальная настройка Git 
 1. `git config --list` - посмотреть все текущие настройки<img width="554" height="584" alt="25" src="https://github.com/user-attachments/assets/15b16d79-f738-41ad-a1a5-b0b03d962d73" />
 
-2. `git config --global user.name "твоёимя"` - настроить своё имя
-3. `git config --global user.email "твойemail"` - настроить своё email
+2. `git config --global user.name "твоё имя пользователя на GitHub"` - настроить своё имя
+3. `git config --global user.email "твой email который ты использовал для регистрации на GitHub"` - настроить своё email
 #### Команды для работы с локальным Git
 1. `git init` - создать новый репозиторий, пример:<img width="615" height="57" alt="3" src="https://github.com/user-attachments/assets/ae86984d-d242-47d3-ba55-ee3c9c458838" />
 2. `git status` - Показасть состояние файлов, пример:<img width="594" height="126" alt="4" src="https://github.com/user-attachments/assets/475a4bec-c3cb-471c-88c3-67bca8cab708" />
@@ -30,9 +30,10 @@
 4. `git commit -m "сообщение"` - Сохранить изменения, пример:<img width="559" height="92" alt="7" src="https://github.com/user-attachments/assets/33222225-4266-47b0-8086-c1a218f17ebf" />
 5. `git commit --amend -m "сообщение"` - позволяет изменить сообщение команды commit 
 5. `git log` - История коммитов, пример:<img width="513" height="63" alt="8" src="https://github.com/user-attachments/assets/661db7f7-265b-4b1a-807e-7c13eace1f0c" />
-6. `git log --oneline` — короткая история
-7.  `git log --oneline -5` — только 5 последних коммитов
-8.  `git log --graph ` — дерево всех веток, пример: <img width="737" height="107" alt="22" src="https://github.com/user-attachments/assets/ea52a6f3-d846-44ef-99c1-c96988d2c642" />
+5.1. `git log --oneline` — короткая история
+5.2.  `git log --oneline -5` — только 5 последних коммитов
+5.3.  `git log --graph ` — дерево всех веток, пример: <img width="737" height="107" alt="22" src="https://github.com/user-attachments/assets/ea52a6f3-d846-44ef-99c1-c96988d2c642" />
+6. `git version` - проверка веврсии установленного Git, пример: <img width="446" height="58" alt="26" src="https://github.com/user-attachments/assets/0c5d40e7-cfb3-493d-9a4b-1df1623f09ff" />
 
 #### Команды для работы с ветками
 9. `git branch` - Список веток, пример:<img width="455" height="97" alt="11" src="https://github.com/user-attachments/assets/ed52dda4-ac49-404a-a478-1a4f8c65dda8" />
