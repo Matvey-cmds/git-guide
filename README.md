@@ -16,9 +16,7 @@
 2. Скачайте установщик
 3. Запустите файл и жмите **Next** на всех шагах
 4. В конце установки поставьте галочку **Git Bash Here**
-5. `git config --global user.name "Твоё Имя"`
-6. `git config --global user.email "твой@email.com"`
-7. Готово
+5. Готово
 ### 3 Работа с локальным Git
 #### Работа с локальным Git
 1. `git init` - создать новый репозиторий, пример:<img width="615" height="57" alt="3" src="https://github.com/user-attachments/assets/ae86984d-d242-47d3-ba55-ee3c9c458838" />
