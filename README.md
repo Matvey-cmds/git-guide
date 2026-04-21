@@ -19,9 +19,9 @@
 5. Готово
 ### 3 Работа с локальным Git
 #### Первоначальная настройка Git 
-`git config --list` - посмотреть все текущие настройки
-`git config --global user.name "твоёимя"` - настроить своё имя
-`git config --global user.email "твойemail"` - настроить своё email
+1. `git config --list` - посмотреть все текущие настройки
+2. `git config --global user.name "твоёимя"` - настроить своё имя
+3. `git config --global user.email "твойemail"` - настроить своё email
 #### Команды для работы с локальным Git
 1. `git init` - создать новый репозиторий, пример:<img width="615" height="57" alt="3" src="https://github.com/user-attachments/assets/ae86984d-d242-47d3-ba55-ee3c9c458838" />
 2. `git status` - Показасть состояние файлов, пример:<img width="594" height="126" alt="4" src="https://github.com/user-attachments/assets/475a4bec-c3cb-471c-88c3-67bca8cab708" />
