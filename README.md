@@ -24,6 +24,7 @@
 5. Готово
 
 ### 3 Работа с локальным Git
+#### Работа с локальным Git
 1. `git init` - создать новый репозиторий, пример:<img width="615" height="57" alt="3" src="https://github.com/user-attachments/assets/ae86984d-d242-47d3-ba55-ee3c9c458838" />
 2. `git status` - Показасть состояние файлов, пример:<img width="594" height="126" alt="4" src="https://github.com/user-attachments/assets/475a4bec-c3cb-471c-88c3-67bca8cab708" />
 
@@ -32,7 +33,7 @@
 4. `git commit -m "сообщение"` - Сохранить изменения, пример:<img width="559" height="92" alt="7" src="https://github.com/user-attachments/assets/33222225-4266-47b0-8086-c1a218f17ebf" />
 
 5. `git log` - История коммитов, пример:<img width="513" height="63" alt="8" src="https://github.com/user-attachments/assets/661db7f7-265b-4b1a-807e-7c13eace1f0c" />
-
+#### Работа с ветками
 6. `git branch` - Список веток, пример:<img width="455" height="97" alt="11" src="https://github.com/user-attachments/assets/ed52dda4-ac49-404a-a478-1a4f8c65dda8" />
 
 7. `git checkout -b new-branch` - создать и переключится на ветку, пример:<img width="462" height="131" alt="9" src="https://github.com/user-attachments/assets/4daf894c-6964-4700-91a7-22a458c8e0a0" />
@@ -59,7 +60,7 @@
 
 
 
-### Принцип работы с форками
+#### Принцип работы с форками
 1. На GitHub зайдите на нужный репозиторий и нажмите кнопку **Fork** - у вас появиться копия репозитория в вашем аккаунте
 2. склонируйте свой форк:
 git clone https: //github.com/Ваш_ник/имя-форка.git
