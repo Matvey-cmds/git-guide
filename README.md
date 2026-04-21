@@ -30,10 +30,10 @@
 4. `git commit -m "сообщение"` - Сохранить изменения, пример:<img width="559" height="92" alt="7" src="https://github.com/user-attachments/assets/33222225-4266-47b0-8086-c1a218f17ebf" />
 5. `git commit --amend -m "сообщение"` - позволяет изменить сообщение команды commit 
 5. `git log` - История коммитов, пример:<img width="513" height="63" alt="8" src="https://github.com/user-attachments/assets/661db7f7-265b-4b1a-807e-7c13eace1f0c" />
-5.1. `git log --oneline` — короткая история
-5.2.  `git log --oneline -5` — только 5 последних коммитов
-5.3.  `git log --graph ` — дерево всех веток, пример: <img width="737" height="107" alt="22" src="https://github.com/user-attachments/assets/ea52a6f3-d846-44ef-99c1-c96988d2c642" />
-6. `git version` - проверка веврсии установленного Git, пример: <img width="446" height="58" alt="26" src="https://github.com/user-attachments/assets/0c5d40e7-cfb3-493d-9a4b-1df1623f09ff" />
+   5.1. `git log --oneline` — короткая история
+   5.2.  `git log --oneline -5` — только 5 последних коммитов
+   5.3.  `git log --graph ` — дерево всех веток, пример: <img width="737" height="107" alt="22" src="https://github.com/user-attachments/assets/ea52a6f3-d846-44ef-99c1-c96988d2c642" />
+7. `git version` - проверка веврсии установленного Git, пример: <img width="446" height="58" alt="26" src="https://github.com/user-attachments/assets/0c5d40e7-cfb3-493d-9a4b-1df1623f09ff" />
 
 #### Команды для работы с ветками
 9. `git branch` - Список веток, пример:<img width="455" height="97" alt="11" src="https://github.com/user-attachments/assets/ed52dda4-ac49-404a-a478-1a4f8c65dda8" />
