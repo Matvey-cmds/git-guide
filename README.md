@@ -19,7 +19,8 @@
 5. Готово
 ### 3 Работа с локальным Git
 #### Первоначальная настройка Git 
-1. `git config --list` - посмотреть все текущие настройки
+1. `git config --list` - посмотреть все текущие настройки<img width="554" height="584" alt="25" src="https://github.com/user-attachments/assets/15b16d79-f738-41ad-a1a5-b0b03d962d73" />
+
 2. `git config --global user.name "твоёимя"` - настроить своё имя
 3. `git config --global user.email "твойemail"` - настроить своё email
 #### Команды для работы с локальным Git
