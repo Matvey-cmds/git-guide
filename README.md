@@ -1,5 +1,5 @@
 
-#Инструкция по работе с GIT
+# Инструкция по работе с GIT
 
 ## Структура документа 
 Документ разбит на главы
@@ -9,21 +9,21 @@
 3. Работа с локальным Git
 4. Работа с удалённым Git и форками
 
-###1. Создание учётной записи в GitHub
+### 1. Создание учётной записи в GitHub
 1. Перейдите на [https://github.com](https://github.com)
 2. Нажмите кномку **Sign up** (или "Регистрация")
 3. Введите email, придумайте пароль, укажите имя пользователя
 4. Подтвердите email (придёт письмо)
 5. Готово. Теперь у вас аккаунт на GitHub.
 
-###2. Установка Git
+### 2. Установка Git
 1. Перейдите на официальный сайт: [https://git-scm.com/download/win](https://git-scm.com/download/win)
 2. Скачайте установщик
 3. Запустите файл и жмите **Next** на всех шагах
 4. В конце установки поставьте галочку **Git Bash Here**
 5. Готово
 
-###3 Работа с локальным Git
+### 3 Работа с локальным Git
 1. `git init` - создать новый репозиторий, пример:<img width="615" height="57" alt="3" src="https://github.com/user-attachments/assets/ae86984d-d242-47d3-ba55-ee3c9c458838" />
 2. `git status` - Показасть состояние файлов, пример:<img width="594" height="126" alt="4" src="https://github.com/user-attachments/assets/475a4bec-c3cb-471c-88c3-67bca8cab708" />
 
@@ -42,7 +42,7 @@
 9. `git merge branch-name` - Слить ветку в текущую, пример:<img width="459" height="124" alt="12" src="https://github.com/user-attachments/assets/fc0dc481-1885-4329-84bf-71a2034aeeb3" />
 
 
-###4. Работа с удалённым Git и форками
+### 4. Работа с удалённым Git и форками
 #### Основные команды для работы с удалённым репозиторием 
 1. `git clone <url>` - клонировать репозиторий к себе, пример:<img width="644" height="131" alt="19" src="https://github.com/user-attachments/assets/c9810b39-9a93-4065-a077-42bbbf14071b" />
 
