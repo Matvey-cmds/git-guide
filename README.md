@@ -44,7 +44,7 @@
 14. `git branch -D имя-ветки` - принудительное удаление<img width="458" height="65" alt="21" src="https://github.com/user-attachments/assets/b7d2f4d0-a784-4e2b-bd5a-e31696f9ddd9" />
 
 ### 4. Работа с удалённым Git и форками
-#### Основные команды для работы с удалённым репозиторием 
+#### 4.1. Основные команды для работы с удалённым репозиторием:
 1. `git remote add origin <url>` - подключить удалённый репозиторий, пример:<img width="604" height="42" alt="13" src="https://github.com/user-attachments/assets/6a7af874-088a-4067-9af7-9a243b3cd3ea" />
 2. `git clone <url>` - клонировать репозиторий к себе, пример:<img width="644" height="131" alt="19" src="https://github.com/user-attachments/assets/c9810b39-9a93-4065-a077-42bbbf14071b" />
 3. `git push -u origin main` - отправить ветку, пример:<img width="573" height="162" alt="14" src="https://github.com/user-attachments/assets/a98ec95a-ed31-447a-ade8-58d9ace07bf9" />
@@ -52,13 +52,13 @@
 5. `git pull` - получить изменения с сервера и слить, пример:<img width="445" height="63" alt="16" src="https://github.com/user-attachments/assets/30a64a1b-a618-409d-b118-93a802da5e43" />
 6. `git fetch` - скачать изменения без слияния, пример:<img width="449" height="39" alt="17" src="https://github.com/user-attachments/assets/1b46a8bc-db71-4895-81d0-e4fa41acfeed" />
 7. `git remote -v` - показать подключённые удалённые репозитории, пример:<img width="549" height="84" alt="15" src="https://github.com/user-attachments/assets/fc6f1f75-82f1-4cfd-9ee4-fec6924421c7" />
-#### Принцип работы с форками
+#### 4.2. Принцип работы с форками:
 1. На GitHub зайдите на нужный репозиторий и нажмите кнопку **Fork** - у вас появиться копия репозитория в вашем аккаунте
 2. Склонируйте свой форк:
 git clone https: //github.com/Ваш_ник/имя-форка.git
 3. Добавьте оригинальный репозиторий как upstream:
 git remote add upstream <url>
-4. Добавьте новую ветку и закомитьте её
-5. Отправить изменения в свой форк
-6. На GitHub в свойм форке нажмите Compare&pulll request создайте Pull Request в оригинальный репозиторий 
+4. Добавьте новую ветку и закомитьте её в свой репозиторий
+5. Отправить pull request на оригинальный репозиторий
+6. Оригинальный владелец решает принять ли изменения или отказать в них, если владелец согласен то он нажимает Compare&pull
 
